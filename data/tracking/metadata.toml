@@ -1,0 +1,53 @@
+# Metadata for SMLM data
+
+
+# Define the class (message) instances for locan.LocData.
+
+[[messages]]
+name = "metadata"
+module = "locan.data.metadata_pb2"
+class_name = "Metadata"
+
+
+##### Fill metadata attributes #####
+
+# Use [[]] to add repeated elements
+# Use string '2022-05-14T06:58:00Z' for Timestamp elements
+# Use int in nanoseconds for Duration elements
+
+[metadata]
+comment = "fps=0.87"
+production_time = '2023-01-01T00:00:00Z'
+
+[[metadata.experiment.experimenters]]
+first_name = "Marvin"
+last_name = "Jungblut"
+
+[[metadata.experiment.experimenters.affiliations]]
+institute = "Julius-Maximilians University"
+department = "Biotechnology and Biophysics"
+
+[metadata.experiment.experimenters.affiliations.address]
+address_lines = ["Am Hubland/Biocenter"]
+city = "Würzburg"
+city_code = "97074"
+country = "Germany"
+# emails =[]
+
+[[metadata.experiment.samples]]
+comment = "Virus tracking"
+targets = ["clickVSV"]
+fluorophores = [
+"ATTO643",
+"CF658" 
+]
+
+[[metadata.experiment.setups]]
+comment = ""
+
+[[metadata.experiment.setups.optical_units]]
+identifier = "1"
+
+[metadata.localizer]
+comment = ""
+software = "swift"

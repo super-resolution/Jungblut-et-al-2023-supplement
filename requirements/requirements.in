@@ -1,0 +1,5 @@
+# python=3.10
+
+locan[color,hdbscan,open3d]==0.14
+jupyterlab
+plotly
