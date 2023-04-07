@@ -1,0 +1,32 @@
+# figure.figsize: 7.2, 7.2
+figure.figsize: 7.2, 4.45
+figure.autolayout: True
+font.size: 22
+font.family: Arial
+
+# axes.formatter.limits : -4, 4
+axes.titlesize : 22
+axes.labelsize : 21
+# axes.labelweight : bold
+axes.grid : False
+
+lines.linewidth : 2
+lines.markersize : 6
+
+patch.facecolor : y
+
+xtick.labelsize: 20
+ytick.labelsize: 20
+xtick.top : True
+ytick.right : True
+xtick.direction : in
+ytick.direction : in
+
+legend.frameon : False
+legend.fontsize: 19
+
+savefig.dpi : 1200
+savefig.bbox : tight
+
+axes.prop_cycle: cycler('color', ['fb9a99', 'a6cee3', 'e31a1c', '1f78b4'])
+ 
