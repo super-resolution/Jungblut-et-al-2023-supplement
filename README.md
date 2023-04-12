@@ -1,5 +1,6 @@
 # Jungblut-et-al-2023-supplement
 Python scripts and jupyter notebooks for SMLM cluster and tracking analysis.
+ImageJ scripts were used for lattice light sheet tracking analysis and cell counting.
 
 This code is a supplement to the publication Jungblut et al. 2023.
 
